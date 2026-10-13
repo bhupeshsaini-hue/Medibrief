@@ -1,0 +1,20 @@
+{
+  "name": "medibrief-root",
+  "version": "1.0.0",
+  "description": "MediBrief - The Two-Minute Doctor: AI Pre-Consultation Assistant",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "dev": "node server/index.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "healthcare",
+    "ai",
+    "clinical-brief",
+    "medibrief",
+    "pre-consultation"
+  ],
+  "author": "Team Arogya (AAYU-XJDK)",
+  "license": "ISC"
+}
